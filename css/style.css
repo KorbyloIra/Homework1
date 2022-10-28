@@ -1,0 +1,40 @@
+body {
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  width: 100%;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.nav a {
+  padding: 10px;
+  display: fixed;
+  text-decoration: none;
+  color: blueviolet;
+}
+.nav a:hover {
+  color: rgba(123, 15, 224, 1);
+  text-shadow: 0 0 20px rgba(85, 1, 141, 1), 0 0 15px rgb(186, 88, 252),
+    0 0 10px rgb(186, 88, 252);
+}
+.text {
+  max-width: 1600px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  max-width: 800px;
+  border-radius: 10px;
+}
